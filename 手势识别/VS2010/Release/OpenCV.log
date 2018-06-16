@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015/10/21 11:37:09。
+     1>项目“F:\工业相机\Industry Camera\Demo\VC++\OpenCV\VS2010\OpenCV.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /IF:\OpenCV\build\include /IF:\OpenCV\build\include\opencv /IF:\OpenCV\build\include\opencv2 /I..\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\OpenCV.cpp
+         OpenCV.cpp
+     1>..\OpenCV.cpp(466): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\OpenCV.cpp(644): warning C4101: “c”: 未引用的局部变量
+     1>..\OpenCV.cpp(760): warning C4101: “defect”: 未引用的局部变量
+     1>..\OpenCV.cpp(761): warning C4101: “hullDefect”: 未引用的局部变量
+     1>..\OpenCV.cpp(883): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(F:\工业相机\Industry Camera\Demo\VC++\OpenCV\VS2010\Release\OpenCV.exe) does not match the Linker's OutputFile property value (F:\工业相机\Industry Camera\Demo\VC++\OpenCV\OpenCV.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\OpenCV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\opencv\build\x86\vc10\lib\ opencv_ml2411d.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_objdetect2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_nonfree2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_videostab2411d.lib libfacedetect.lib MVCAMSDK.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\OpenCV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\OpenCV.lib" /MACHINE:X86 /SAFESEH Release\OpenCV.obj
+         正在生成代码
+         已完成代码的生成
+         OpenCV.vcxproj -> F:\工业相机\Industry Camera\Demo\VC++\OpenCV\VS2010\Release\OpenCV.exe
+     1>已完成生成项目“F:\工业相机\Industry Camera\Demo\VC++\OpenCV\VS2010\OpenCV.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.50
